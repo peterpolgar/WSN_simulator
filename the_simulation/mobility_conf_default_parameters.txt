@@ -1,0 +1,135 @@
+# Comments must not contain any comma.
+# A configuration file has to end with a '\n' character.
+
+# Directed multi-direction
+# for sink(s)
+sink_mobility_alg,Directed multi-direction
+library prefix name,directed_multi_direction_mobility_plugin
+seed,0
+speed [km/h],25
+collision avoidance,none
+
+# kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+# kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+
+# Directed unique-direction
+# for sink(s)
+sink_mobility_alg,Directed unique-direction
+library prefix name,directed_unique_direction_mobility_plugin
+seed,0
+speed [km/h],25
+collision avoidance,none
+
+# kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+# kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+
+# Gauss-Markov
+# for sink(s)
+sink_mobility_alg,Gauss-Markov
+library prefix name,gauss_markov_mobility_plugin
+seed,0
+time period length [s],1
+alpha,0.500000
+distance from AoI edges [m],5.000000
+speed mean [km/h],40
+speed Gaussian mean [km/h],0.000000
+speed Gaussian std dev [km/h],10.000000
+direction mean [degree],180.000000
+direction Gaussian mean [degree],0.000000
+direction Gaussian std dev [degree],90.000000
+collision avoidance,none
+
+# for nodes
+node_mobility_alg,Gauss-Markov
+library prefix name,gauss_markov_mobility_plugin
+seed,0
+time period length [s],1
+alpha,0.500000
+distance from AoI edges [m],5.000000
+speed mean [km/h],40
+speed Gaussian mean [km/h],0.000000
+speed Gaussian std dev [km/h],10.000000
+direction mean [degree],180.000000
+direction Gaussian mean [degree],0.000000
+direction Gaussian std dev [degree],90.000000
+collision avoidance,none
+
+# kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+# kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+
+# Random Direction
+# for sink(s)
+sink_mobility_alg,Random Direction
+library prefix name,random_direction_mobility_plugin
+seed,0
+time period t [s],2
+speed range start [km/h],1
+speed range end [km/h],50
+speed distribution,uniform
+collision avoidance,none
+
+# for nodes
+node_mobility_alg,Random Direction
+library prefix name,random_direction_mobility_plugin
+seed,0
+time period t [s],2
+speed range start [km/h],1
+speed range end [km/h],50
+speed distribution,uniform
+collision avoidance,none
+
+# kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+# kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+
+# Random Walk
+# for sink(s)
+sink_mobility_alg,Random Walk
+library prefix name,random_walk_mobility_plugin
+seed,0
+time period t [s],5
+type of coordinate system,global
+direction range start [degree],0.000000
+direction range end [degree],360.000000
+speed range start [km/h],1
+speed range end [km/h],50
+speed distribution,uniform
+collision avoidance,none
+
+# for nodes
+node_mobility_alg,Random Walk
+library prefix name,random_walk_mobility_plugin
+seed,0
+time period t [s],5
+type of coordinate system,global
+direction range start [degree],0.000000
+direction range end [degree],360.000000
+speed range start [km/h],1
+speed range end [km/h],50
+speed distribution,uniform
+collision avoidance,none
+
+# kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+# kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+
+# Random Waypoint
+# for sink(s)
+sink_mobility_alg,Random Waypoint
+library prefix name,random_waypoint_mobility_plugin
+seed,0
+speed range start [km/h],1
+speed range end [km/h],50
+speed distribution,uniform
+pause time type,constant
+const pause time [s],2
+collision avoidance,none
+
+# for nodes
+node_mobility_alg,Random Waypoint
+library prefix name,random_waypoint_mobility_plugin
+seed,0
+speed range start [km/h],1
+speed range end [km/h],50
+speed distribution,uniform
+pause time type,constant
+const pause time [s],2
+collision avoidance,none

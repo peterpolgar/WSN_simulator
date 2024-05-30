@@ -1,0 +1,8 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file>images/icons8-pause-50.png</file>
+        <file>images/icons8-play-50.png</file>
+        <file>images/icons8-stop-50.png</file>
+    </qresource>
+</RCC>

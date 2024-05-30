@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH -A p_20230831
+#SBATCH --job-name=teszt3run
+#SBATCH --time=00:02:00
+#SBATCH --partition=cpu
+#SBATCH --mem-per-cpu=2000
+#SBATCH --cpus-per-task=1
+#SBATCH --array=1-12
+module load gcc
+./the_simulation ./eleventh_prod_runs/SMNone_NMNone_g0.1_NS1_NN120_P236.conf  ./eleventh_prod_runs/SMRandom_Walk_NMRandom_Walk_g0.1_NS1_NN120_P236.conf ./eleventh_prod_runs/SMNone_NMNone_g0.1_NS2_NN120_P236.conf  ./eleventh_prod_runs/SMRandom_Walk_NMRandom_Walk_g0.1_NS2_NN120_P236.conf ./eleventh_prod_runs/SMNone_NMNone_g0.1_NS3_NN120_P236.conf  ./eleventh_prod_runs/SMRandom_Walk_NMRandom_Walk_g0.1_NS3_NN120_P236.conf ./eleventh_prod_runs/SMNone_NMNone_g0.1_NS4_NN120_P236.conf  ./eleventh_prod_runs/SMRandom_Walk_NMRandom_Walk_g0.1_NS4_NN120_P236.conf ./eleventh_prod_runs/SMNone_NMNone_g0.1_NS5_NN120_P236.conf  ./eleventh_prod_runs/SMRandom_Walk_NMRandom_Walk_g0.1_NS5_NN120_P236.conf ./eleventh_prod_runs/SMNone_NMNone_g0.1_NS6_NN120_P236.conf  ./eleventh_prod_runs/SMRandom_Walk_NMRandom_Walk_g0.1_NS6_NN120_P236.conf

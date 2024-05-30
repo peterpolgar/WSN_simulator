@@ -1,0 +1,50 @@
+initialize settable parameters with default values
+read the configuration file into a string
+Set parameters from config string
+Write out the settable parameters
+initialize unsettable parameters
+Write out the unsettable parameters
+load mobility plugins
+the update matrices function definition
+load routing plugin
+do simulation
+    init write data out
+        open file and init variables
+        elso sor kiirasa
+    the core of the simulation: while loop
+        regular movement update
+        init to write data out
+        handling states
+            generate next extreme event
+            get normal state
+            handle extreme state
+        forwarding loop
+            if there is enough energy
+                different acts based on the actual normal and extreme states
+                    if state is on
+                        extreme measurement case
+                        szokasos meres
+                    if state is sleep
+                        initiate wake up if extreme meas. or if incoming request(s)
+                    if state is on-to-sleep
+                    if other states
+                        subtract corresponding state energy value
+        receiving loops
+            init vector variables
+            1. main loop
+                extreme keret fogadas
+                normal keret fogadas
+                visszajelzesi energia koltseg levonasa
+            2. main loop
+                turn off extreme on state? also with expired timeouts
+                increase in-interval times
+        stat number of alive nodes
+        write out data
+            check what metric(s) changed
+            idobelyeg es sorhossz kiirasa
+            write changed metric(s) out
+        stop condition
+        increase global time
+    write out closing row
+clean up
+do csv generation

@@ -1,0 +1,9 @@
+g++ -std=c++17 -Wall -Wextra -pedantic -O2 -o the_simulation main.cpp
+on HPC:
+g++ -std=c++17 -Wall -Wextra -pedantic -O2 -ldl -o the_simulation main.cpp
+# compile the csv generator
+g++ -std=c++17 -Wall -Wextra -pedantic -O2 -o csv_gen prod_csv_gen.cpp
+# compile the config generator
+g++ -std=c++17 -Wall -Wextra -pedantic -O2 -o conf_gen config_gen.cpp
+# compile the mobility plugin tester
+g++ -std=c++17 -Wall -Wextra -pedantic -O2 -o plug_tester mobility_plugin_tester.cpp

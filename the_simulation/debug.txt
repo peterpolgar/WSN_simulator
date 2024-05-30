@@ -1,0 +1,1424 @@
+Environment variable SLURM_ARRAY_TASK_ID is not set. Using the first given config file name argument.
+All settable (by configuration file) parameters:
+# AoI
+aoi_meter_width: 3200
+aoi_meter_height: 1800
+
+# Sink(s)
+number_of_sinks: 4
+sink_meter_diam: 0.2
+positions_of_sinks: 115.849, 229.881, 1562.41, 1002.51, 1977.68, 142.826, 447.058, 1263.88, 
+
+# Nodes
+number_of_nodes: 120
+node_meter_diam: 0.1
+positions_of_nodes: 408.677, 800.1, 198.848, 1042.32, 76.7187, 719.144, 217.78, 509.802, 60.8248, 409.969, 31.7468, 914.526, 208.541, 274.043, 461.878, 594.611, 403.969, 417.951, 9.76822, 114.417, 336.136, 86.1891, 744.505, 414.246, 1.89379, 1248.62, 579.175, 207.723, 703.579, 732.625, 647.163, 44.6984, 466.316, 1061.9, 195.64, 1265.6, 404.068, 1434.01, 234.559, 805.971, 716.082, 1068.23, 826.937, 891.371, 936.128, 507.703, 1025.95, 245.937, 599.045, 1275.25, 1181.56, 61.2511, 623.154, 1597.89, 373.242, 1258.05, 785.616, 1443.7, 821.484, 1673.41, 848.001, 131.105, 617.739, 887.191, 302.882, 1711.08, 70.5712, 1678.99, 1174.88, 701.709, 192.068, 1538.62, 1493.21, 46.8137, 24.162, 1419.4, 875.519, 1275.77, 938.097, 1036.03, 1093.03, 1264.24, 558.182, 1773.41, 1000, 793.583, 992.433, 3.73026, 1130.28, 960.052, 1078.01, 1649.22, 1352.16, 958.546, 1689.83, 99.9933, 1457.71, 259.652, 1241.08, 431.962, 1448.17, 580.038, 1389.16, 1313.53, 1045.21, 1477.31, 1217.4, 259.199, 1450.62, 785.972, 1248.9, 1775.66, 1759.75, 684.955, 1661.25, 275.725, 1319.42, 1474.34, 1246.42, 1154.2, 1572.85, 434.274, 1629.9, 943.102, 1461.74, 1116.05, 1757.77, 456.007, 1588.4, 1289.76, 1426.82, 1783.72, 1569.52, 1530.49, 1777.95, 1672.78, 2055.77, 716.195, 1936.24, 935.203, 1938.14, 142.766, 2265.81, 530.108, 1748.53, 1429.89, 2022.25, 1382.18, 1982.53, 459.977, 1666.38, 1118.91, 1895.09, 1538.4, 2205.29, 358.052, 2144.42, 926.061, 2302.65, 732.202, 2111.09, 92.9393, 2304.37, 213.399, 2397.84, 10.0853, 2495.77, 318.805, 2580.81, 701.583, 1821.82, 1231.81, 2587.33, 508.386, 2656.32, 135.199, 2774.63, 370.871, 2845.74, 702.565, 2452.41, 1029.21, 2314.41, 1289.99, 2058.94, 1108.69, 2971.13, 136.331, 2621.98, 1310.85, 2973.85, 528.607, 2000.12, 1690.65, 2588.91, 1599.32, 2728.08, 1033.93, 2243.65, 1084.97, 3167.81, 115.353, 2233.76, 1555.46, 2859.3, 880.389, 3167.92, 972.133, 2461.74, 848.299, 2332.74, 1788.76, 2496.11, 1428.97, 2830.23, 1528.5, 3139.24, 732.615, 2824.45, 1186.17, 3147.03, 393.695, 2613.74, 1786.17, 2988.82, 1092.05, 2949.09, 341.485, 3044.15, 1487.4, 3052.07, 1282.26, 3091.55, 1717.59, 2869.87, 1730.6, 2155.74, 1765.32, 3197.18, 1382.7, 
+
+# Communication
+b path loss exponent: 3
+frame header length [B]: 20
+frame payload lengths [B]: 108
+frame receive energy (Eelec) [μJ/bit]: 5
+energy-free space factor (Efs) [μJ/bit/m^2]: 0.001
+receiving node sensitivity (Emin) [μJ]: 25
+D0 [m]: 87.5
+
+# General parameters
+velocity max. [km/h]: 50
+initial batter energy of a sensor node (E0) [μJ]: 5e+06
+metric alpha: 0.95
+enhanced nodes rate: 0.5
+enhanced nodes energy multiplier: 1.25
+wakeful probability: 0.8
+On mode energy [μJ]: 55250
+sleep mode energy [μJ]: 15
+hibernate mode energy [μJ]: 3.5
+on to sleep time [msec]: 10
+sleep to hibernate time [msec]: 5
+hibernate to sleep time [msec]: 5
+sleep to On time [msec]: 10
+on time default [msec]: 5000
+sleep time default [msec]: 45
+hibernate time default [msec]: 45
+how many sleep-hibernate cycles in one T: 549
+aggregation heterogenity factor: 0.9
+aggregation extreme heterogenity factor: 0.9
+is all node synchronized: true
+is simultaneous measurement and communication: false
+
+# Measurement
+measurement energy [μJ]: 250
+measurement probability: 0.5
+measurement time [msec]: 400
+probability of extreme measurement event: 0.5
+extreme measurement invalid time-delta [msec]: 500
+
+All unsettable (by configuration file) parameters:
+# AoI
+Length of the diagonal of AoI: 3671.51
+
+# Communication
+frame lengths [B]: 128
+Max. radiant energy (Eoutmax) [μJ]: 191406
+Max. sending range (Rmax) [m]: 255.852
+
+# General parameters
+Alive battery threshold [μJ]: 7840
+Enhanced node battery enegy: 6.25e+06
+On-to-sleep energy [μJ]: 276.175
+Sleep-to-hibernate energy [μJ]: 0.02875
+Hibernate-to-sleep energy [μJ]: 0.02875
+Sleep-to-On energy [μJ]: 276.175
+Controller traffic energy [μJ]: 30
+Sending timeout [msec]: 60
+Controller request interval (T) [msec]: 720
+
+# Measurement
+Measurement interval [msec]: 59965
+
+# Initial battery energies [μJ]: 
+5e+06, 6.25e+06, 6.25e+06, 6.25e+06, 6.25e+06, 5e+06, 5e+06, 5e+06, 6.25e+06, 6.25e+06, 5e+06, 6.25e+06, 5e+06, 5e+06, 6.25e+06, 5e+06, 6.25e+06, 6.25e+06, 6.25e+06, 5e+06, 5e+06, 6.25e+06, 6.25e+06, 5e+06, 5e+06, 6.25e+06, 6.25e+06, 5e+06, 6.25e+06, 6.25e+06, 5e+06, 6.25e+06, 5e+06, 5e+06, 6.25e+06, 6.25e+06, 5e+06, 6.25e+06, 6.25e+06, 6.25e+06, 6.25e+06, 5e+06, 6.25e+06, 6.25e+06, 6.25e+06, 6.25e+06, 5e+06, 6.25e+06, 5e+06, 5e+06, 6.25e+06, 6.25e+06, 6.25e+06, 5e+06, 6.25e+06, 5e+06, 5e+06, 6.25e+06, 6.25e+06, 6.25e+06, 5e+06, 5e+06, 5e+06, 6.25e+06, 5e+06, 6.25e+06, 5e+06, 6.25e+06, 5e+06, 6.25e+06, 6.25e+06, 5e+06, 5e+06, 5e+06, 5e+06, 5e+06, 5e+06, 6.25e+06, 6.25e+06, 6.25e+06, 6.25e+06, 6.25e+06, 5e+06, 6.25e+06, 5e+06, 6.25e+06, 6.25e+06, 6.25e+06, 6.25e+06, 5e+06, 6.25e+06, 6.25e+06, 5e+06, 6.25e+06, 6.25e+06, 5e+06, 5e+06, 5e+06, 5e+06, 5e+06, 5e+06, 6.25e+06, 6.25e+06, 5e+06, 5e+06, 5e+06, 5e+06, 6.25e+06, 5e+06, 6.25e+06, 5e+06, 6.25e+06, 5e+06, 6.25e+06, 5e+06, 5e+06, 6.25e+06, 6.25e+06, 5e+06, 6.25e+06, 
+
+# Mobilities
+# Sink mobility: Mobility NaN
+# Node mobility: Mobility NaN
+# Routing algorithm name: Dijkstra
+metric_matrix is not nullptr
+number of sinks,4
+cel neg: -1
+cel neg: -1
+timeout happened: 1, keretek: 1
+timeout happened: 2, keretek: 2
+timeout happened: 3, keretek: 3
+cel neg: -1
+timeout happened: 4, keretek: 4
+timeout happened: 5, keretek: 5
+timeout happened: 6, keretek: 6
+timeout happened: 7, keretek: 7
+timeout happened: 8, keretek: 8
+timeout happened: 9, keretek: 9
+timeout happened: 10, keretek: 10
+timeout happened: 11, keretek: 11
+timeout happened: 12, keretek: 12
+timeout happened: 13, keretek: 13
+timeout happened: 14, keretek: 14
+timeout happened: 15, keretek: 15
+timeout happened: 16, keretek: 16
+timeout happened: 17, keretek: 17
+timeout happened: 18, keretek: 18
+timeout happened: 19, keretek: 19
+timeout happened: 20, keretek: 20
+timeout happened: 21, keretek: 21
+cel neg: -1
+nem erte el count (norm fog): 1, prev: 175.327, norm: 175.327, energy: -7719.46, fog en: 5120, glob time: 60368
+nem erte el count (norm fog): 2, prev: 175.327, norm: 175.327, energy: -7719.46, fog en: 5120, glob time: 60368
+nem erte el count (norm fog): 3, prev: 218.51, norm: 218.51, energy: -7719.46, fog en: 5120, glob time: 60368
+timeout happened: 22, keretek: 27
+timeout happened: 23, keretek: 31
+timeout happened: 24, keretek: 32
+timeout happened: 25, keretek: 33
+timeout happened: 26, keretek: 34
+cel neg: -1
+timeout happened: 27, keretek: 35
+timeout happened: 28, keretek: 36
+timeout happened: 29, keretek: 37
+timeout happened: 30, keretek: 38
+timeout happened: 31, keretek: 39
+timeout happened: 32, keretek: 40
+timeout happened: 33, keretek: 41
+timeout happened: 34, keretek: 42
+timeout happened: 35, keretek: 43
+timeout happened: 36, keretek: 44
+timeout happened: 37, keretek: 45
+timeout happened: 38, keretek: 46
+timeout happened: 39, keretek: 47
+timeout happened: 40, keretek: 48
+timeout happened: 41, keretek: 49
+timeout happened: 42, keretek: 50
+cel neg: -1
+timeout happened: 43, keretek: 51
+timeout happened: 44, keretek: 52
+cel neg: -1
+cel neg: -1
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: 78
+cel neg: -1
+timeout happened: 45, keretek: 59
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+timeout happened: 46, keretek: 60
+timeout happened: 47, keretek: 61
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+timeout happened: 48, keretek: 62
+cel neg: -1
+timeout happened: 49, keretek: 63
+cel neg: -1
+cel neg: -1
+timeout happened: 50, keretek: 64
+cel neg: -1
+cel neg: -1
+timeout happened: 51, keretek: 65
+cel neg: -1
+timeout happened: 52, keretek: 66
+cel neg: -1
+cel neg: -1
+cel neg: -1
+timeout happened: 53, keretek: 67
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+nem erte el count (norm fog): 4, prev: 205.948, norm: 205.948, energy: -329790, fog en: 5120, glob time: 180298
+nem erte el count (norm fog): 5, prev: 205.948, norm: 205.948, energy: -329790, fog en: 5120, glob time: 180298
+cel neg: -1
+cel neg: -1
+timeout happened: 54, keretek: 69
+cel neg: -1
+timeout happened: 55, keretek: 70
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+timeout happened: 56, keretek: 71
+cel neg: -1
+cel neg: -1
+cel neg: -1
+timeout happened: 57, keretek: 72
+timeout happened: 58, keretek: 73
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+timeout happened: 59, keretek: 74
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+timeout happened: 60, keretek: 75
+cel neg: -1
+cel neg: -1
+timeout happened: 61, keretek: 76
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+timeout happened: 62, keretek: 77
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+timeout happened: 63, keretek: 78
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+timeout happened: 64, keretek: 79
+timeout happened: 65, keretek: 80
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+timeout happened: 66, keretek: 81
+cel neg: -1
+cel neg: -1
+timeout happened: 67, keretek: 82
+cel neg: -1
+cel neg: -1
+timeout happened: 68, keretek: 83
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+timeout happened: 69, keretek: 84
+cel neg: -1
+cel neg: -1
+timeout happened: 70, keretek: 85
+cel neg: -1
+cel neg: -1
+timeout happened: 71, keretek: 86
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: 66
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+timeout happened: 72, keretek: 87
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+timeout happened: 73, keretek: 88
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+cel neg: -1
+csv generalas

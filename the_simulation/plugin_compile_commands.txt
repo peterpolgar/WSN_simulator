@@ -1,0 +1,8 @@
+g++ -std=c++17 -Wall -Wextra -pedantic -O2 -shared -fPIC -o ../dijkstra_routing_plugin.so dijkstra_routing_plugin.cpp
+
+g++ -std=c++17 -Wall -Wextra -pedantic -O2 -shared -fPIC -o ../random_walk_mobility_plugin.so random_walk_mobility_plugin.cpp
+g++ -std=c++17 -Wall -Wextra -pedantic -O2 -shared -fPIC -o ../random_waypoint_mobility_plugin.so random_waypoint_mobility_plugin.cpp
+g++ -std=c++17 -Wall -Wextra -pedantic -O2 -shared -fPIC -o ../random_direction_mobility_plugin.so random_direction_mobility_plugin.cpp
+g++ -std=c++17 -Wall -Wextra -pedantic -O2 -shared -fPIC -o ../gauss_markov_mobility_plugin.so gauss_markov_mobility_plugin.cpp
+g++ -std=c++17 -Wall -Wextra -pedantic -O2 -shared -fPIC -o ../directed_unique_direction_mobility_plugin.so directed_unique_direction_mobility_plugin.cpp
+g++ -std=c++17 -Wall -Wextra -pedantic -O2 -shared -fPIC -o ../directed_multi_direction_mobility_plugin.so directed_multi_direction_mobility_plugin.cpp
