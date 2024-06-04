@@ -1,5 +1,5 @@
-# WSN_simulator
-Wireless Sensor Network (WSN) simulator including mobility.
+# Millisecond resolution WSN simulator
+Wireless Sensor Network (WSN) simulator software package including mobility.
 
 Built with the Qt framework.
 
