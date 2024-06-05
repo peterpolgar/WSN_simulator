@@ -9,9 +9,9 @@ Acknowledgement to Tommy Hinks for the implemented Poisson-disk sampling algorit
 
 ## Build from source
 
-### WSN mobility software
+### The WSN mobility software
 
-After cloning this repo, the WSN mobility software can be compiled by installing Qt, and then building by Qt Creator or running the following command in the WSN_mobility directory:
+After cloning this repo, the WSN mobility software can be compiled by installing Qt, and then building by Qt Creator or running the following command in the ```WSN_mobility``` directory:
 
 ```cmake.exe --build /target/build/directory --target all```
 
@@ -19,7 +19,7 @@ After cloning this repo, the WSN mobility software can be compiled by installing
 
 The "the_simulation" software can be compiled by running the following command:
 
-```HPC_compile_all_things.bash /path/to/the/the_simulation/```
+```the_simulation/HPC_compile_all_things.bash /path/to/the/the_simulation/```
 
 ## Using a prebuilt binary of the WSN mobility software
 
@@ -29,4 +29,4 @@ See the [releases page](https://github.com/peterpolgar/WSN_simulator/releases).
 
 The usage of the WSN mobility software is self-explanatory by the GUI (I think).
 
-The usage of the WSN simulation software is described in the the_simulation/run_usage.txt file.
+The usage of the WSN simulation software is described in the ```the_simulation/run_usage.txt``` file.
