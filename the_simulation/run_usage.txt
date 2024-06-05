@@ -1,7 +1,8 @@
 # Usage:
 # the_simulation:
 time ./the_simulation prod_1_sample > debug.txt
-# the csv generator
+    # where prod_1_sample means a configuration file named prod_1_sample.conf
+# the csv generator (generates CSV from the output file which the_simulation generated.
 ./csv_gen prod_1_sample.out 100 number_of_measurements number_of_received_frames_on_sinks average_hopcount_of_received_frames average_sending_time_of_received_frames relative_delivery_error average_energy_of_nodes
 ./csv_gen prod_1_sample.out 100 average_hopcount_of_received_frames average_sending_time_of_received_frames relative_delivery_error average_energy_of_nodes
 ./csv_gen prod_1_sample.out 100 number_of_measurements number_of_received_frames_on_sinks average_hopcount_of_received_frames average_sending_time_of_received_frames relative_delivery_error average_energy_of_nodes average_comm_energy
@@ -11,5 +12,5 @@ time ./the_simulation prod_1_sample > debug.txt
 éles méréshez main.cpp-ben:
 " 100 average_hopcount_of_received_frames relative_delivery_error average_energy_of_nodes"
 
-egy konyvtarban levo config fajlok alapjan futtatas:
+executing based on the config files specified in a directory:
 time bash run_multiple_cases.bash sixth_prod_runs
