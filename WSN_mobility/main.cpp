@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     Widget w;
     w.showMaximized();
-    QFile ss("../WSN_mobility/style.qss");
+    QFile ss("style.qss");
     if (!ss.open(QIODevice::ReadOnly | QIODevice::Text)) {
         return 2;
     }
