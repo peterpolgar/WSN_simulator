@@ -30,3 +30,5 @@ See the [releases page](https://github.com/peterpolgar/WSN_simulator/releases).
 The usage of the WSN mobility software is self-explanatory by the GUI (I think).
 
 The usage of the WSN simulation software is described in the ```the_simulation/run_usage.txt``` file.
+
+You can find example configuration files (.conf) in the ```the_simulation``` folder.
