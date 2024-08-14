@@ -1,5 +1,7 @@
 # Millisecond resolution WSN simulator
+
 Wireless Sensor Network (WSN) simulator software package including WSN simulator and WSN mobility simulator.
+
 A screenshot of the WSN mobility simulator:
 ![WSN_GUI](WSN_mobility_GUI_screenshot.png)
 
